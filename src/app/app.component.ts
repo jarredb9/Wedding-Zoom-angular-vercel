@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    getSignautre()
+    getSignature()
   }
 
   getSignature() {
