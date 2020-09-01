@@ -23,7 +23,7 @@ body {
 }
 .join-dialog {
 	width: 100% !important;
-	max-height: 75% !important;
+	height: 85% !important;
 }
 
 #wedding {
@@ -55,5 +55,17 @@ body {
 @media only screen and (orientation: portrait) {
 	.footer {
 		position: inherit !important;
+	}
+}
+
+@media only screen and (orientation: portrait) and (max-width: 450px) {
+	.button-wrapper {
+		justify-content: center;
+	}
+	.button-wrapper a {
+		font-size: .9vh;
+	}
+	.meeting-client-inner {
+		top: 15vh !important;
 	}
 }
