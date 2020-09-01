@@ -15,16 +15,15 @@ body {
 	height: 0% !important;
 }
 .meeting-client-inner {
-	width: 90% !important;
 	height: 90% !important;
 	top: 7vh !important;
-	left: 7vh !important;
 	max-height: 100% !important;
 	margin-bottom: 0.01em !important;
 	overflow-y: scroll;
 }
 .join-dialog {
 	width: 100% !important;
+	max-height: 75% !important;
 }
 
 #wedding {
@@ -39,4 +38,22 @@ body {
 	display: flex;
 	justify-content: space-around;
 	padding: 1vh;
+}
+
+/* @media only screen and (max-width: 500px) {
+	.meeting-client-inner {
+		top: 12vh !important;
+	}
+} */
+
+@media only screen and (max-width: 850px) {
+	.meeting-client-inner {
+		top: 12vh !important;
+	}
+}
+
+@media only screen and (orientation: portrait) {
+	.footer {
+		position: inherit !important;
+	}
 }

@@ -76,8 +76,9 @@ export class AppComponent implements OnInit {
 								'meeting-client-inner'
 							) as HTMLCollectionOf<HTMLElement>);
 							if (mci.length) {
+								let wcContainer = document.querySelector('#wc-container-left');
 								const buttonWrapper = document.createElement('div');
-								mci[0].prepend(buttonWrapper);
+								wcContainer.prepend(buttonWrapper);
 								const buttonDiv = document.createElement('div');
 								buttonDiv.className = 'button-wrapper';
 								buttonWrapper.appendChild(buttonDiv);
