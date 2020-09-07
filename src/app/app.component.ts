@@ -83,12 +83,12 @@ export class AppComponent implements OnInit {
 								buttonDiv.className = 'button-wrapper';
 								buttonWrapper.appendChild(buttonDiv);
 								const newButtonMobile = document.createElement('a');
-								newButtonMobile.href = 'zoomus://zoom.us/join?confno=8323267051&pwd=427Nf6';
+								newButtonMobile.href = 'zoomus://zoom.us/join?confno=73235293968&pwd=605196';
 								newButtonMobile.innerText = 'Open Zoom Mobile App';
 								newButtonMobile.className = 'btn btn-primary';
 								buttonDiv.appendChild(newButtonMobile);
 								const newButtonDesktop = document.createElement('a');
-								newButtonDesktop.href = 'zoommtg://zoom.us/join?confno=8323267051&pwd=427Nf6';
+								newButtonDesktop.href = 'zoommtg://zoom.us/join?confno=73235293968&pwd=605196';
 								newButtonDesktop.innerText = 'Open Zoom Desktop App';
 								newButtonDesktop.className = 'btn btn-primary';
 								newButtonMobile.insertAdjacentElement('afterend', newButtonDesktop);
