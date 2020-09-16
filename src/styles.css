@@ -2,42 +2,46 @@
 
 html,
 body {
-	min-width: 0 !important;
+  min-width: 0 !important;
+}
+
+p {
+  color: black;
 }
 
 body {
-	background-image: linear-gradient(to bottom right, #4169e1, silver);
+  background-image: linear-gradient(to bottom right, #4169e1, silver);
 }
 
 #zmmtg-root {
-	background-color: white !important;
-	width: 0% !important;
-	height: 0% !important;
+  background-color: white !important;
+  width: 0% !important;
+  height: 0% !important;
 }
 .meeting-client-inner {
-	height: 90% !important;
-	top: 7vh !important;
-	max-height: 100% !important;
-	margin-bottom: 0.01em !important;
-	overflow-y: scroll;
+  height: 90% !important;
+  top: 7vh !important;
+  max-height: 100% !important;
+  margin-bottom: 0.01em !important;
+  overflow-y: scroll;
 }
 .join-dialog {
-	width: 100% !important;
-	height: 85% !important;
+  width: 100% !important;
+  height: 85% !important;
 }
 
 #wedding {
-	text-align: center;
-	color: black;
-	font-family: cursive;
-	font-style: italic;
-	font-weight: bold;
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .button-wrapper {
-	display: flex;
-	justify-content: space-around;
-	padding: 1vh;
+  display: flex;
+  justify-content: space-around;
+  padding: 1vh;
 }
 
 /* @media only screen and (max-width: 500px) {
@@ -47,25 +51,25 @@ body {
 } */
 
 @media only screen and (max-width: 850px) {
-	.meeting-client-inner {
-		top: 13vh !important;
-	}
+  .meeting-client-inner {
+    top: 13vh !important;
+  }
 }
 
 @media only screen and (orientation: portrait) {
-	.footer {
-		position: inherit !important;
-	}
+  .footer {
+    position: inherit !important;
+  }
 }
 
 @media only screen and (orientation: portrait) and (max-width: 450px) {
-	.button-wrapper {
-		justify-content: center;
-	}
-	.button-wrapper a {
-		font-size: .9vh;
-	}
-	.meeting-client-inner {
-		top: 15vh !important;
-	}
+  .button-wrapper {
+    justify-content: center;
+  }
+  .button-wrapper a {
+    font-size: 0.9vh;
+  }
+  .meeting-client-inner {
+    top: 15vh !important;
+  }
 }
